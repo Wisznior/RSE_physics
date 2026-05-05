@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RSE_physics_Wiszniowski"
+dynamic = ["version"]
+description = "Simple physics calculator using Pint"
+authors = [{name = "Wisznior", email = "wisznior@student.agh.edu.pl"}]
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = ["pint"]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-cov"]
+docs = ["mkdocs-material"]
+
+[tool.setuptools_scm]
+write_to = "src/RSE_physics/_version.py"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
