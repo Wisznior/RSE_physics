@@ -18,4 +18,5 @@ print(calc_speed("100m", "10s"))
 ```
 
 ## Demo
-See the [demo notebook](notebooks/demo.ipynb)
+Open notebook in browser:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Wisznior/RSE_physics/blob/main/notebooks/demo.ipynb#)
