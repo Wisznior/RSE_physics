@@ -8,7 +8,7 @@ A simple calculator for physics units using **Pint**.
 
 ## Installation
 ```bash
-pip install RSE-physics-Wiszniowski 
+pip install -i https://test.pypi.org/simple/ RSE-physics-Wiszniowski==0.1.1
 ```
 
 ## Usage
