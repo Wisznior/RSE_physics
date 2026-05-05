@@ -9,7 +9,7 @@ description = "Simple physics calculator using Pint"
 authors = [{name = "Wisznior", email = "wisznior@student.agh.edu.pl"}]
 readme = "README.md"
 license = {text = "MIT"}
-dependencies = ["pint"]
+dependencies = ["pint>=0.24"]
 
 [project.optional-dependencies]
 test = ["pytest", "pytest-cov"]
